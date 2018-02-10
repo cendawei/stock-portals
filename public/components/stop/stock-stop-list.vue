@@ -126,7 +126,8 @@
                     expire: item["停牌期限"],
                     code: item["证券代码"],
                     name: item["证券简称"],
-                    market: item["市场"]
+                    market: item["市场"],
+                    back: this.tabIndex
                 }
                 this.$router.push({
                     path: '/stock/stop/detail',

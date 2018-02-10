@@ -39,6 +39,8 @@
 </template>
 
 <script>
+    import utils from 'utils'
+
     export default {
         data() {
             return {
@@ -57,7 +59,13 @@
         },
         methods: {
             back2List() {
-                this.$router.go(-1)
+                this.$router.push({
+                    path: '/stock/stop/list',
+                    query: {
+                        tab: this.$route.query['back'],
+                        page: 1
+                    }
+                })
             }
         }
     }
