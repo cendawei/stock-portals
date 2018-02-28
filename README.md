@@ -1,6 +1,6 @@
-# express-gulp-webpack-app
-### express+gulp+webpack框架：包括生产和开发环境，其中生产环境下css和js加上文件chunkhash，用于发布时清理缓存。其他雪碧图、js模块化和sass一并具有。
-### 安装依赖吧：根目录下npm install（已包括后端和前端所有包）
-### 运行项目：npm run start
-### 前端开发环境：进去public目录 npm run dev
-### 前端生产环境：进去public目录 npm run build
+### 股票门户系统：
+- 各版块每日停牌数据，停牌详情等信息
+### 技术架构
+> 后端：nodejs+express+mysql+sequelize+superagent
+> 前端：ejs+gulp+webpack+vue全家桶+zepto+weui
+### `项目合作联系：business@cdroom.top`
